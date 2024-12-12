@@ -13,12 +13,16 @@ const inter = localFont({
 const spaceGrotesk = localFont({
   src: "./fonts/SpaceGroteskVF.ttf",
   variable: "--font-space-grotesk",
-  weight: "300 400 500 700 800 900",
+  weight: "300 400 500 700",
 });
 
 export const metadata: Metadata = {
   title: "DevFlow",
-  description: "A better version of Stack Overflow.",
+  description:
+    "A community-driven platform for asking and answering programming questions. Get help, share knowledge, and collaborate with developers from around the world. Explore topics in web development, mobile app development, algorithms, data structures, and more.",
+  icons: {
+    icon: "/images/site-logo.svg",
+  },
 };
 
 export default function RootLayout({
